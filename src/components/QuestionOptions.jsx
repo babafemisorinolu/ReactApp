@@ -22,6 +22,7 @@ export default function QuestionOptions({questionNumber, options, setAnswers, us
        <select   
         value={selectedValue}
         onChange={(e)=>handleChange(e)} >
+            <option value=""> </option>
         {options.map((option) => (
             <option key={option} value={option}>
             {option}
