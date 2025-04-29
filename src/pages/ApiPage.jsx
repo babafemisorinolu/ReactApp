@@ -4,7 +4,7 @@ import Question from "../components/Question";
 import QuestionOptions from "../components/QuestionOptions";
 
 const URL =
-  "https://opentdb.com/api.php?amount=5&category=19&difficulty=easy&type=multiple";
+  "https://opentdb.com/api.php?amount=3&category=19&difficulty=easy&type=multiple";
 
 export default function ApiPage() {
   //state to holds the questions from the api
